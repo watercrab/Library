@@ -1,0 +1,32 @@
+@inherits LayoutComponentBase
+<RadzenDialog />
+<RadzenNotification />
+<RadzenTooltip />
+<RadzenContextMenu />
+
+<RadzenLayout style="grid-template-areas: 'rz-sidebar rz-header' 'rz-sidebar rz-body'">
+    <RadzenHeader Style="background-color: #e7aee7; display: flex; height: 57px" class="justify-content-center">
+        <RadzenRow JustifyContent="Radzen.JustifyContent.SpaceBetween" AlignItems="Radzen.AlignItems.Center" Gap="0" Style="width: 1156px">
+            <RadzenRow JustifyContent="Radzen.JustifyContent.Center" AlignItems="Radzen.AlignItems.Center">
+                <RadzenImage Path="images/watercrab.png"></RadzenImage>
+            </RadzenRow>           
+
+                <RadzenPanelMenu Style="float: none; display: flex; color: #000000; width: 522px; background-color: #e7aee7">
+                    <RadzenPanelMenuItem Text="Home" Path="" />
+                    <RadzenPanelMenuItem Text="Books" Path="books" />
+                    <RadzenPanelMenuItem Text="Categories" Path="categories" />
+                    <RadzenPanelMenuItem Text="RentHistories" Path="rent-histories" />
+                    <RadzenPanelMenuItem Text="Signins" Path="signins" />
+                    <RadzenPanelMenuItem Text="Users" Path="users" />
+                </RadzenPanelMenu>
+
+        </RadzenRow>
+</RadzenHeader>
+    <RadzenBody Expanded="@sidebarExpanded" Style="text-align: center; display: inline-flex" class="flex-column align-items-center">
+        <RadzenRow Style="max-width: 1440px" AlignItems="Radzen.AlignItems.Center">
+            <RadzenColumn Style="width: 1156px; display: flex" class="flex-column align-items-center">
+            @Body
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenBody>
+</RadzenLayout>

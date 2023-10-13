@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LibrarySystem
+build_property.RootNamespace = LibrarySystem
+build_property.ProjectDir = /Users/nampoo/PreTestLibrary/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/nampoo/PreTestLibrary
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/nampoo/PreTestLibrary/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Book/AddBook.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9BZGRCb29rLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Book/Books.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9Cb29rcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Book/EditBook.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQm9vay9FZGl0Qm9vay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Category/AddCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvQWRkQ2F0ZWdvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Category/Categories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvQ2F0ZWdvcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Category/EditCategory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnkvRWRpdENhdGVnb3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/RentHistory/AddRentHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVudEhpc3RvcnkvQWRkUmVudEhpc3RvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/RentHistory/EditRentHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVudEhpc3RvcnkvRWRpdFJlbnRIaXN0b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/RentHistory/RentHistories.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVudEhpc3RvcnkvUmVudEhpc3Rvcmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Signin/AddSignin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2lnbmluL0FkZFNpZ25pbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Signin/EditSignin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2lnbmluL0VkaXRTaWduaW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/Signin/Signins.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2lnbmluL1NpZ25pbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/User/AddUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9BZGRVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/User/EditUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9FZGl0VXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/User/Users.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlci9Vc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nampoo/PreTestLibrary/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

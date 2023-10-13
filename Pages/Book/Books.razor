@@ -1,0 +1,47 @@
+@page "/books"
+
+<PageTitle>Books</PageTitle>
+<RadzenStack>
+    <RadzenRow AlignItems="AlignItems.Center" Style="width: 1156px">
+        <RadzenRow>
+            <RadzenColumn Size="12" SizeMD="6">
+                <RadzenText Text="ข้อมูลหนังสือ" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0; width: 1156px" TextAlign="Radzen.TextAlign.Center" />
+            </RadzenColumn>
+        </RadzenRow>
+        <RadzenRow>
+            <RadzenColumn Size="12" SizeMD="6">
+                <RadzenStack Orientation="Orientation.Horizontal" AlignItems="Radzen.AlignItems.End" JustifyContent="JustifyContent.End" Gap="0.5rem" Style="width: 1156px">
+                    <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddButtonClick" Variant="Variant.Flat" />
+                </RadzenStack>
+            </RadzenColumn>
+        </RadzenRow>
+        <RadzenRow>
+            <RadzenColumn Size=12 Style="display: flex">
+                <RadzenDataGrid @ref="grid0" ColumnWidth="auto"  AllowFiltering="true" FilterMode="FilterMode.Advanced" AllowPaging="true" AllowSorting="true" ShowPagingSummary="true" PageSizeOptions=@(new int[]{5, 10, 20, 30})
+                    Data="@books"    TItem="LibrarySystem.Models.Library.Book" RowSelect="@EditRow" Style="width: 1156px; display: inline; text-align: left" >
+                    <Columns>
+                        <RadzenDataGridColumn TItem="LibrarySystem.Models.Library.Book" Property="book_id" Title="ลำดับ">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="LibrarySystem.Models.Library.Book" Property="category_id" Title="รหัสหมวดหมู่">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="LibrarySystem.Models.Library.Book" Property="book_code" Title="รหัสหนังสือ">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="LibrarySystem.Models.Library.Book" Property="book_name" Title="ชื่อหนังสือ">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="LibrarySystem.Models.Library.Book" Property="publisher" Title="ชื่อผู้แต่ง">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="LibrarySystem.Models.Library.Book" Property="price" Title="ราคา">
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="LibrarySystem.Models.Library.Book" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+                            <Template Context="book">
+                                <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="delete" Size="ButtonSize.Medium"
+                                    Shade="Shade.Lighter" Variant="Variant.Flat"
+                                    Click=@(args => GridDeleteButtonClick(args, book)) @onclick:stopPropagation="true" />
+                            </Template>
+                        </RadzenDataGridColumn>
+                    </Columns>
+                </RadzenDataGrid>
+            </RadzenColumn>
+        </RadzenRow>
+  </RadzenRow>
+</RadzenStack>
